@@ -38,7 +38,12 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
 });
 
 MathJax.Hub.Config({
-  TeX: { equationNumbers: {autoNumber: "AMS" } }
+  "HTML-CSS": {
+    mtextFontInherit: true
+  }
+  TeX: { 
+    equationNumbers: {autoNumber: "AMS" } 
+  }
 });
 
 MathJax.Ajax.loadComplete("https://raw.github.com/mindonmind/MathJax/master/config/local/local.js");
