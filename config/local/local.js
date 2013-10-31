@@ -37,4 +37,8 @@ MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
   
 });
 
+MathJax.Hub.Config({
+  TeX: { equationNumbers: {autoNumber: "AMS" } }
+});
+
 MathJax.Ajax.loadComplete("[MathJax]/config/local/local.js");
