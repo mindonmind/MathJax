@@ -41,4 +41,4 @@ MathJax.Hub.Config({
   TeX: { equationNumbers: {autoNumber: "AMS" } }
 });
 
-MathJax.Ajax.loadComplete("[MathJax]/config/local/local.js");
+MathJax.Ajax.loadComplete("https://raw.github.com/mindonmind/MathJax/master/config/local/local.js");
